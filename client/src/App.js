@@ -5,12 +5,13 @@ import MainPage from "./components/main-page/MainPage";
 import RecipeListPage from "./components/recipe-list-page/RecipeListPage";
 import RecipePage from "./components/recipe-page/RecipePage";
 import NutritionFactPage from "./components/nutrition-fact-page/NutritionFactPage";
-import Navigate from "./components/title/Navigate";
+import Title from "./components/title/Title";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
     <BrowserRouter>
-      <Navigate />
+      <Title />
       <Routes>
         <Route path="/" element={<Welcome />} />
         <Route path="/main" element={<MainPage />} />
@@ -18,6 +19,7 @@ function App() {
         <Route path="/recipe-page" element={<RecipePage />} />
         <Route path="/nutrition-facts" element={<NutritionFactPage />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
