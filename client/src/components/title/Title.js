@@ -1,9 +1,9 @@
-import { Link } from "react-router-dom";
+import "./Title.css";
 
 function Navigate() {
   return (
-    <div>
-      <h1>Yet another nutrition app</h1>
+    <div className="title-container">
+      <h1 className="title">yet another nutrition app</h1>
     </div>
   );
 }
