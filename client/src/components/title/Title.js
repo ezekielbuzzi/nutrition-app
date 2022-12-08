@@ -1,12 +1,11 @@
-import { Outlet } from "react-router-dom";
+import { Link } from "react-router-dom";
 
-function Title() {
-    return ( 
-        <div>
-            <h1>Title</h1>
-            <Outlet/>
-        </div>
-     );
+function Navigate() {
+  return (
+    <div>
+      <h1>Yet another nutrition app</h1>
+    </div>
+  );
 }
 
-export default Title;
+export default Navigate;
