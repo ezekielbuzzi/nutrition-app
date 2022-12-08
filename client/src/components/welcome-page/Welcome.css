@@ -1,0 +1,38 @@
+.welcome-page-container {
+  position: relative;
+  height: 65rem;
+}
+
+.about-box {
+  width: 60%;
+  padding: 2rem;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.about-text {
+  text-align: center;
+}
+
+.welcome-page-btn {
+  font-size: 2rem;
+  padding: 0.5rem 2rem;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s;
+}
+
+.welcome-page-btn:hover {
+  transform: translate(-50%, -2px);
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.7);
+}
+.welcome-page-btn:active {
+  transform: translate(-50%, 0px);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+}
